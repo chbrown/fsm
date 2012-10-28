@@ -1,0 +1,13 @@
+{
+  "name": "fsm",
+  "version": "0.0.2",
+  "author" : "Christopher Brown <io@henrian.com>",
+  "main" : "fsm.js",
+  "description": "Finite State Modeling using a list of [regex, function(match) -> string] pairs.",
+  "keywords" : ["finite state", "modeling", "fsm"],
+  "homepage": "https://github.com/chbrown/fsm",
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/chbrown/fsm.git"
+  }
+}
