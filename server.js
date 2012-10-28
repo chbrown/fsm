@@ -13,7 +13,7 @@ var transitions = [
   [/(a|b)-demographics/, function(m) {
     return m[1] + '-0-question';
   }],
-  [/(a|b)-20-answer/, 'conclusion'],
+  [/(a|b)-10-answer/, 'conclusion'],
   [/(a|b)-(\d+)-question/, function(m) {
     return m[1] + '-' + m[2] + '-answer';
   }],

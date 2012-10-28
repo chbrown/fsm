@@ -26,7 +26,7 @@ This is `server.js` (also in this repository), except changed to pull in `fsm` f
       [/(a|b)-demographics/, function(m) {
         return m[1] + '-0-question';
       }],
-      [/(a|b)-20-answer/, 'conclusion'],
+      [/(a|b)-10-answer/, 'conclusion'],
       [/(a|b)-(\d+)-question/, function(m) {
         return m[1] + '-' + m[2] + '-answer';
       }],
@@ -49,4 +49,4 @@ This is `server.js` (also in this repository), except changed to pull in `fsm` f
       }
     }).listen(8282, '127.0.0.1');
 
-Start it up with `node server.js`, and then go to `localhost:8282/` in your browser.
+Start it up with `node server.js`, and then go to `localhost:8282/` in your browser. Then refresh. And then refresh like 14 more times to see how it deals with the end-game.
