@@ -3,6 +3,10 @@
 Create a transition matrix of (regex, function) pairs, where
 the function takes a regex match (or undefined, with the start state) and returns a string.
 
+# Installation
+
+    npm install git://github.com/chbrown/fsm.git
+
 # Example
 
 This is `server.js` (also in this repository), except changed to pull in `fsm` from node_modules/:
