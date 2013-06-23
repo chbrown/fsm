@@ -11,8 +11,8 @@ the function takes a regex match (or undefined, with the start state) and return
 
 This is `server.js` (also in this repository), except changed to pull in `fsm` from node_modules/:
 
-    var FSM = require('fsm'),
-      http = require('http');
+    var FSM = require('fsm');
+    var http = require('http');
 
     var transitions = [
       [undefined, function(m) {
